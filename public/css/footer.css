@@ -1,0 +1,31 @@
+.footer{
+    background-color: var(--darkgreen);
+}
+h4 {
+    color: var(--white);
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+ul li {
+    padding: 4px 0px;
+}
+
+p{
+    color: var(--white);
+}
+
+ul li a {
+    color:var(--white);
+    display: block;
+    transition: .7s ease;
+}
+
+ul li a:hover {
+    padding-left: 10px;
+    color: var(--black);
+}
