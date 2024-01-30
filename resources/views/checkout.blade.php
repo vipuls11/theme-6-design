@@ -1,20 +1,7 @@
 @extends('layout')
 @section('content')
 <style>
-    .checkout-button{
-        background-color: transparent;
-        border: 0px;
-        cursor: pointer;
-    }
-
-    .checkout-button:hover{
-        color: red;
-
-    }
-
-    .copy-btn{
-        cursor: pointer;
-    }
+   
 </style>
 <div class="container mt-2 mb-5">
     <div class="row">
@@ -114,12 +101,12 @@
     </div>
 </div>
         <div class="container-fluid" style="background:#e8e7e8;">
-            <div class="d-lg-flex gap-2 my-3 justify-content-between align-items-center text-center py-4 px-2" >
-                <p class="text-dark m-0 fw-bold fs-5" style="font-size: 17px;"><img src="{{asset('images/home/trust.png')}}" alt="hello" class="" style="width:50px;">Trust of Oriflamme Jewellers</p> 
-                <p class="text-dark m-0 fw-bold fs-5"><img src="{{asset('images/home/15days.png')}}" alt="hello" class="" style="width:50px;">15 DAYS RETURN</p> 
-                <p class="text-dark m-0 fw-bold fs-5"><img src="{{asset('images/home/exchange-rate.png')}}" alt="hello" class="" style="width:50px;">100% EXCHANGE</p> 
-                <p class="text-dark m-0 fw-bold fs-5"><img src="{{asset('images/home/certificate.png')}}" alt="hello" class="" style="width:50px;">CERTIFIED JEWELLERY</p> 
-                <p class="text-dark m-0 fw-bold fs-5"><img src="{{asset('images/home/lifetime.png')}}   " alt="hello" class="" style="width:50px;">LIFETIME BUYBACK</p> 
+            <div class="d-lg-flex gap-2 my-3 justify-content-between align-items-center  py-4 px-2" >
+                <p class="text-dark m-0 fw-bold fs-5 mb-lg-0 mb-2" style="font-size: 17px;"><img src="{{asset('images/home/trust.png')}}" alt="hello" class="" style="width:50px;">Trust of Oriflamme Jewellers</p> 
+                <p class="text-dark m-0 fw-bold fs-5  mb-lg-0 mb-2"><img src="{{asset('images/home/15days.png')}}" alt="hello" class="" style="width:50px;">15 DAYS RETURN</p> 
+                <p class="text-dark m-0 fw-bold fs-5  mb-lg-0 mb-2"><img src="{{asset('images/home/exchange-rate.png')}}" alt="hello" class="" style="width:50px;">100% EXCHANGE</p> 
+                <p class="text-dark m-0 fw-bold fs-5  mb-lg-0 mb-2"><img src="{{asset('images/home/certificate.png')}}" alt="hello" class="" style="width:50px;">CERTIFIED JEWELLERY</p> 
+                <p class="text-dark m-0 fw-bold fs-5  mb-lg-0 mb-2"><img src="{{asset('images/home/lifetime.png')}}   " alt="hello" class="" style="width:50px;">LIFETIME BUYBACK</p> 
             </div>
         </div>
  

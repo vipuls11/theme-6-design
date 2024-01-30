@@ -1,21 +1,7 @@
 @extends('layout')
 @section('content')
  <style>
-  .social-media{
-    color:var(--darkgreen);
-    margin-right: 5px;
-  }
-  .fa-regular{
-    cursor: pointer;
-  }
 
-  .btn{
-    border: 1px solid var(--darkgreen);
-  }
-  .btn:hover{
-    background: var(--darkgreen); 
-    border: 1px solid var(--darkgreen);
-  }
  </style>
   <div class="container pt-3">
     <h4 class="fw-bold fs-3 text-center " style="color:var(--black);">Wishlist</h4>

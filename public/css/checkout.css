@@ -1,0 +1,14 @@
+.checkout-button{
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+}
+
+.checkout-button:hover{
+    color: red;
+
+}
+
+.copy-btn{
+    cursor: pointer;
+}

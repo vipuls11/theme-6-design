@@ -1,0 +1,15 @@
+.social-media{
+    color:var(--darkgreen);
+    margin-right: 5px;
+  }
+  .fa-regular{
+    cursor: pointer;
+  }
+
+  .btn{
+    border: 1px solid var(--darkgreen);
+  }
+  .btn:hover{
+    background: var(--darkgreen); 
+    border: 1px solid var(--darkgreen);
+  }

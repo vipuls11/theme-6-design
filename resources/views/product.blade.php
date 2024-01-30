@@ -648,9 +648,9 @@
             <div class="overflow-hidden">
                 <div class="row g-2">
                     <div class="col-lg-4 col-md-6">
-                        <div class="p-3">
-                            <div class="card" >
-                                <a href="{{asset('single-product')}}"><img src="{{asset('images/home/Emerald.jpg')}}" class="card-img-top border" alt="..."></a>
+                        <div class="p-3 ">
+                            <div class="card w-100">
+                                <a href="{{asset('single-product')}}"><img src="{{asset('images/home/Emerald.jpg')}}" class="card-img-top border w-100" alt="..."></a>
                                 <div class="fast_shipping w-50 text-center p-2" style="clip-path: polygon(0% 20%, 60% 20%, 100% 20%, 90% 52%, 100% 81%, 60% 80%, 0% 80%);">
                                  <h6 class="text-white mb-0 " style="font-size:14px;">Fast Shipping</h6>
                                 </div>
@@ -675,7 +675,7 @@
                    
                         <div class="col-lg-4 col-md-6">
                           <div class="p-3">
-                              <div class="card" >
+                              <div class="card w-100" >
                                   <img src="{{asset('images/home/Emerald.jpg')}}" class="card-img-top border" alt="...">
                                   <div class="fast_shipping w-50 text-center p-2" style="clip-path: polygon(0% 20%, 60% 20%, 100% 20%, 90% 52%, 100% 81%, 60% 80%, 0% 80%);">
                                    <h6 class="text-white mb-0 " style="font-size:14px;">Fast Shipping</h6>
@@ -701,7 +701,7 @@
 
                           <div class="col-lg-4 col-md-6">
                             <div class="p-3">
-                                <div class="card" >
+                                <div class="card w-100" >
                                     <img src="{{asset('images/home/Emerald.jpg')}}" class="card-img-top border" alt="...">
                                     <div class="fast_shipping w-50 text-center p-2" style="clip-path: polygon(0% 20%, 60% 20%, 100% 20%, 90% 52%, 100% 81%, 60% 80%, 0% 80%);">
                                      <h6 class="text-white mb-0 " style="font-size:14px;">Fast Shipping</h6>
@@ -727,7 +727,7 @@
 
                             <div class="col-lg-4 col-md-6">
                               <div class="p-3">
-                                  <div class="card" >
+                                  <div class="card w-100" >
                                       <img src="{{asset('images/home/Emerald.jpg')}}" class="card-img-top border" alt="...">
                                       <div class="fast_shipping w-50 text-center p-2" style="clip-path: polygon(0% 20%, 60% 20%, 100% 20%, 90% 52%, 100% 81%, 60% 80%, 0% 80%);">
                                        <h6 class="text-white mb-0 " style="font-size:14px;">Fast Shipping</h6>

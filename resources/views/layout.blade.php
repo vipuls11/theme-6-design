@@ -38,6 +38,14 @@
       <link rel="stylesheet" type="text/css" href="{{ asset('css/index.css') }}">
        {{-- ---------------Style product------------ --}}
        <link rel="stylesheet" type="text/css" href="{{ asset('css/product.css') }}">
+       {{-- ---------------Style cart------------ --}}
+       <link rel="stylesheet" type="text/css" href="{{ asset('css/cart.css') }}">
+       {{-- ---------------Style checkout------------ --}}
+       <link rel="stylesheet" type="text/css" href="{{ asset('css/checkout.css') }}">
+    {{-- ---------------livewire single-product------------ --}}
+       <link rel="stylesheet" type="text/css" href="{{ asset('css/single-product.css') }}">
+    {{-- ---------------livewire wishlist------------ --}}
+       <link rel="stylesheet" type="text/css" href="{{ asset('css/wishlist.css') }}">
     {{-- ---------------livewire------------ --}}
     <script src="//unpkg.com/alpinejs" defer></script>
 
@@ -75,6 +83,14 @@
     <script src="{{ asset('js/index.js') }}"></script>
      {{-- ---------------PRODUCT LAYOUT------------ --}}
      <script src="{{ asset('js/product.js') }}"></script>
+     {{-- ---------------PRODUCT CART------------ --}}
+     <script src="{{ asset('js/cart.js') }}"></script>
+     {{-- ---------------PRODUCT CHECKOUT------------ --}}
+     <script src="{{ asset('js/checkout.js') }}"></script>
+     {{-- ---------------PRODUCT single-product------------ --}}
+     <script src="{{ asset('js/single-product.js') }}"></script>
+     {{-- ---------------PRODUCT single-product------------ --}}
+     <script src="{{ asset('js/wishlist.js') }}"></script>
 </body>
 
 </html>

@@ -1,9 +1,7 @@
 @extends('layout')
 @section('content')
 <style>
-    .vedio_btn_card{
-  border: none;
-}
+ 
 </style>
 <div>
     <div class="container py-3">
@@ -119,14 +117,7 @@
         </div>
 </div>
 <script>
-    function myFunction() {
-  var x = document.getElementById("myDIV");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
+ 
   </script>
 @endsection
 
