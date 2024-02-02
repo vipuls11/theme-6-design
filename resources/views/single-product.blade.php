@@ -385,11 +385,11 @@
                         <div id="flush-collapseOne" class="accordion-collapse collapse"
                             data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
-                                <div class="py-2 border ">
-                                    <table class="w-full">
-                                        <thead class="border-b border-black">
-                                            <tr class="">
-                                                <th class="py-2" style="font-family: AGaramondPro-Regular;">Component
+                                <div class="py-2">
+                                    <table class="w-100">
+                                        <thead class="border ">
+                                            <tr class="text-center">
+                                                <th class="py-2 " style="font-family: AGaramondPro-Regular;">Component
                                                 </th>
                                                 <th class="py-2" style="font-family: AGaramondPro-Regular;">Gold Rate
                                                     <span>(18kt)</span>
@@ -448,11 +448,11 @@
                                                 <td><span>&#8377; </span>1077.67</td>
                                             </tr>
                                             <tr class="text-lg font-semibold">
-                                                <td style="font-family: AGaramondPro-Regular;">Grand Total</td>
+                                                <td class="fw-semibold" style="font-family: AGaramondPro-Regular;">Grand Total</td>
                                                 <td>-</td>
                                                 <td>-</td>
                                                 <td>-</td>
-                                                <td style="font-family: AGaramondPro-Regular;"><span>&#8377; </span>37000
+                                                <td class="fw-semibold" style="font-family: AGaramondPro-Regular;"><span>&#8377; </span>37000
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -473,7 +473,7 @@
                             data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
                                 <div class="py-2">
-                                    <p class="text-dark">Net Quantity: <span>1 N</span></p>
+                                    <p class="text-dark"><span class="fw-semibold">Net Quantity: </span><span>1 N</span></p>
                                     <p class="text-dark">
                                         Contact customer care executive at the manufacturing address above
                                         or call us at <a href="">1800-266-0123</a>. Email us at
@@ -725,7 +725,7 @@
                                 eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum
                                 nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed
                                 ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros
-                                non fermentum. Sed dapibus pulvinar nibh tempor porta.</span> <span onclick="myFunction()" class="text-primary" id="myBtn" style="cursor: pointer; font-size:14px;">Read more</span></p>
+                                non fermentum. Sed dapibus pulvinar nibh tempor porta.</span> <span onclick="myFunction()" class="text-primary" id="myBtna" style="cursor: pointer; font-size:14px;">Read more</span></p>
                         
                     </div>
                 </div>

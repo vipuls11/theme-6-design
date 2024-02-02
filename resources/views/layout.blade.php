@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" type="image/png" href="{{ asset('images/icons/fevicon.png') }}">
-    <title>Theme -5</title>
+    <link rel="icon" type="image/png" href="{{ asset('images/New Jewelry.png') }}">
+    <title>Theme-6 Design</title>
     {{-- ---------------font-awesome------------ --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
@@ -53,7 +53,7 @@
 
 
     <style>
-     
+ 
     </style>
 </head>
 
@@ -64,10 +64,11 @@
 
 
     {{-- ---------------scrollToTop------------ --}}
-    <button id="scroll_top" onclick="scrollToTop()" title="Go To Top" class="position-fixed custom-btn btn-5"
+    <button id="scroll_top" onclick="scrollToTop()" title="Go To Top" class="original-button position-fixed custom-btn btn-5"
         style="display: none; z-index:3;bottom:15px; right:15px;  font-size: 22px; width:50px; height:50px;">
         <i class="fa-solid fa-arrow-up"></i>
     </button>
+    
     <script>
        
     </script>

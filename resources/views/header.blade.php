@@ -1,8 +1,8 @@
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog search-dialog">
-        <div class="modal-content">
+<div class="modal fade"  id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog search-dialog" >
+        <div class="modal-content" style="background: var(--darkgreen);">
             <div class="modal-body py-4">
                 <div class="d-flex justify-content-center    ">
                     <div class="col-lg-5 ">
@@ -29,7 +29,7 @@
 </div>
 
 <div class="d_header" style=" position:fixed; top: 0; z-index:500; width:100%;">
-    <div class="d-none d-lg-block" style="width:90%;margin:auto;">
+    <div class="d-none d-lg-block" style="width:90%; margin:auto;">
         <div class="row d-flex   align-items-center">
             <div class="col-2 d-flex  align-items-center ">
                 <a href="{{ asset('/') }}">
@@ -42,7 +42,7 @@
                         <div class="collapse navbar-collapse">
                             <ul class="navbar-nav ">
                                 @php
-                                    $categories = ['Ring', 'Earring','Diamond','Braclets'];
+                                    $categories = ['Ring', 'Earring','Diamond','Braclets','Neckless'];
                                 @endphp
                                 @foreach ($categories as $category)
                                     <li class="nav-item dropdown has-megamenu">
@@ -50,7 +50,7 @@
                                             {{ $category }} <span style="font-size: 12px;"> <i
                                                     class="fa-solid fa-angle-down"></i></span>
                                         </a>
-                                        <div class="dropdown-menu megamenu" role="menu">
+                                        <div class="dropdown-menu megamenu bg-warning" role="menu">
                                             <div class="row g-3 ">
                                                 {{-- @foreach ($category->categoryType as $ctype) --}}
                                                 <div class="col-lg-6 col-12">
@@ -132,6 +132,12 @@
 
                                                         </ul>
                                                     </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-12">
+                                                    <div class="col-megamenu">
+                                                        <h6 class="heading_li mb-2">We prodive your best desig to you.</h6>
+                                                        <img src="{{ asset('images/home/2.jpg') }}" alt="helloo" class="w-100 img-thumbnail figure-img img-fluid">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6 col-12">

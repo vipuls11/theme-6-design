@@ -1,7 +1,7 @@
  @extends('layout')
  @section('content')
      {{-- ......................................slider Banner Session......................................... --}}
-     <div>
+     <div class="">
          <div id="carouselExampleIndicators" class="carousel slide">
              <div class="carousel-indicators">
                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -78,7 +78,7 @@
      {{-- ......................................Banner Session......................................... --}}
      {{-- ......................................Brand Spotligh......................................... --}}
      <div class="container-fluid text-center">
-         <h2>Brand Spotlight</h2>
+         <h2 class="fw-semibold">Brand Spotlight</h2>
          <p class="text-dark">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi eius atque ab.</p>
          <div class="overflow-hidden text-center my-3">
              <div class="row gy-lg-5 gy-2">
@@ -130,14 +130,14 @@
      {{-- ......................................Brand Spotligh......................................... --}}
      {{-- ......................................image card slider Trending Collections......................................... --}}
      <div class="my-5">
-         <h2 class="text-center ">Trending Collections</h2>
+         <h2 class="text-center fw-semibold">Trending Collections</h2>
          <div id="myCarousel" class="carousel slide container-fluid" data-bs-ride="carousel">
              <div class="carousel-inner w-100">
                  <div class="carousel-item active">
                      <div class="col-md-3">
                          <a href="#">
-                             <div class="card ">
-                                 <img class="w-100" src="{{ asset('images/Earring Collections/earring.jpg') }}">
+                             <div class="card w-100">
+                                 <img class="w-100" src="{{ asset('images/Earring Collections/earring.jpg') }}" class=" bg-parimagry">
 
                              </div>
                          </a>
@@ -147,7 +147,7 @@
                  <div class="carousel-item">
                      <div class="col-md-3">
                          <a href="#">
-                             <div class="card">
+                             <div class="card w-100">
                                  <img class="w-100" src="{{ asset('images/Earring Collections/neckless.jpg') }}">
 
                              </div>
@@ -157,7 +157,7 @@
                  <div class="carousel-item">
                      <div class="col-md-3">
                          <a href="#">
-                             <div class="card">
+                             <div class="card w-100">
                                  <img class="w-100" src="{{ asset('images/Earring Collections/neckless1.jpg') }}">
 
                              </div>
@@ -168,7 +168,7 @@
                  <div class="carousel-item">
                      <div class="col-md-3">
                          <a href="#">
-                             <div class="card">
+                             <div class="card w-100">
                                  <img class="w-100" src="{{ asset('images/Earring Collections/ring.jpg') }}">
 
                              </div>
@@ -178,7 +178,7 @@
                  <div class="carousel-item">
                      <div class="col-md-3">
                          <a href="">
-                             <div class="card">
+                             <div class="card w-100">
                                  <img class="w-100" src="{{ asset('images/Earring Collections/rings.jpg') }}">
 
                              </div>
@@ -188,7 +188,7 @@
                  <div class="carousel-item">
                      <div class="col-md-3">
                          <a href="#">
-                             <div class="card">
+                             <div class="card w-100">
                                  <img class="w-100" src="{{ asset('images/Earring Collections/neckless1.jpg') }}">
 
                              </div>
@@ -198,7 +198,7 @@
                  <div class="carousel-item">
                      <div class="col-md-3">
                          <a href="#">
-                             <div class="card">
+                             <div class="card w-100">
                                  <img class="w-100" src="{{ asset('images/Earring Collections/neckless.jpg') }}">
 
                              </div>
@@ -208,7 +208,7 @@
                  <div class="carousel-item">
                      <div class="col-md-3">
                          <a href="#">
-                             <div class="card">
+                             <div class="card w-100">
                                  <img class="w-100" src="{{ asset('images/Earring Collections/neckless2.jpg') }}">
 
                              </div>
@@ -243,9 +243,9 @@
                          </div>
                          <div class="col-lg-6 ">
                              <div class="Subcribe_input">
-                                 <input type="text" placeholder="Enter Email" name="" class="w-100 p-1"
+                                 <input type="text" placeholder="Enter your Email" name="" class="w-100 p-1"  style="font-size: 14px;"
                                      id="">
-                                 <button class="button_subcribe">SUBCRIBE</button>
+                                 <button class="button_subcribe fw-semibold ">SUBCRIBE</button>
                              </div>
                          </div>
                      </div>
@@ -256,7 +256,7 @@
      {{-- ......................................image card slider Trending Collections......................................... --}}
      {{-- ......................................Banner Session......................................... --}}
      <div class="container text-center my-5">
-         <h2>A Special Gift</h2>
+         <h2 class="fw-semibold">A Special Gift</h2>
          <p class="text-dark">Lorem ipsum dolor, sit amet consectetur.</p>
          <div class="overflow-hidden text-center my-3">
              <div class="row g-lg-3 g-3">
@@ -265,42 +265,42 @@
                       <img src="{{ asset('images/Earring Collections/For Perfect Proposal.png') }}" alt="" class="w-100"
                       style="background-size: cover;">
                      </div>
-                     <h6 class="py-2">For Perfect Proposal</h6>
+                     <h5 class="py-2 fw-semibold">For Perfect Proposal</h5>
                  </div>
                  <div class="col-lg-4 col-md-12">
                      <div class="">
                       <img src="{{ asset('images/Earring Collections/Lil One.png') }}" alt="" class="w-100"
                       style="background-size: cover;">
                      </div>
-                     <h6 class="py-2">Lil One</h6>
+                     <h5 class="py-2 fw-semibold">Lil One</h5>
                  </div>
                  <div class="col-lg-4 col-md-12">
                      <div class="">
                       <img src="{{ asset('images/Earring Collections/Anniversary Surprise.png') }}" alt="" class="w-100"
                       style="background-size: cover;">
                      </div>
-                     <h6 class="py-2">Anniversary Surprise</h6>
+                     <h5 class="py-2 fw-semibold">Anniversary Surprise</h5>
                  </div>
                  <div class="col-lg-4 col-md-12">
                      <div class="">
                          <img src="{{ asset('images/Earring Collections/Treating Myself.png') }}" alt="" class="w-100"
                              style="background-size: cover;">
                      </div>
-                     <h6 class="py-2">Treating Myself</h6>
+                     <h5 class="py-2 fw-semibold">Treating Myself</h5>
                  </div>
                  <div class="col-lg-4 col-md-12">
                      <div class="">
                       <img src="{{ asset('images/Earring Collections/Presents For Parents.png') }}" alt="" class="w-100"
                       style="background-size: cover;">
                      </div>
-                     <h6 class="py-2">Presents For Parents</h6>
+                     <h5 class="py-2 fw-semibold">Presents For Parents</h5>
                  </div>
                  <div class="col-lg-4 col-md-12">
                      <div class="">
                       <img src="{{ asset('images/Earring Collections/Birthday Bling.png') }}" alt="" class="w-100"
                       style="background-size: cover;">
                      </div>
-                     <h6 class="py-2">Birthday Bling</h6>
+                     <h5 class="py-2 fw-semibold">Birthday Bling</h5>
                  </div>
                  
              </div>

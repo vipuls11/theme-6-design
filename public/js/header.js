@@ -42,18 +42,18 @@ $(document).ready(function() {
         $(document).scroll(function() {
             scroll_pos = $(this).scrollTop();
             if (scroll_pos > 30) {
-                $(".d_header").css('background-color', 'white');
+                $(".d_header").css('background-color', '#86A8E7');
                 $(".d_header").css('position', 'fixed');
 
-                $(".menu_color").css('color', '#8B9474');
-                $(".right_menu_color").css('color', '#8B9474');
+                $(".menu_color").css('color', 'white');
+                $(".right_menu_color").css('color', 'white');
                 $(".count_color").css('color', 'black');
                 $(".hamber").css('color', '#8B9474');
             } else {
                 $(".d_header").css('background-color', 'transparent');
                 $(".d_header").css('position', 'fixed');
-                $(".menu_color").css('color', 'black');
-                $(".right_menu_color").css('color', 'black');
+                $(".menu_color").css('color', '#86A8E7');
+                $(".right_menu_color").css('color', '#86A8E7');
                 $(".count_color").css('color', '#8B9474');
                 $(".hamber").css('color', 'black');
             }
