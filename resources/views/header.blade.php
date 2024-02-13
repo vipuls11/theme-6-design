@@ -50,7 +50,7 @@
                                             {{ $category }} <span style="font-size: 12px;"> <i
                                                     class="fa-solid fa-angle-down"></i></span>
                                         </a>
-                                        <div class="dropdown-menu megamenu bg-warning" role="menu">
+                                        <div class="dropdown-menu megamenu" role="menu">
                                             <div class="row g-3 ">
                                                 {{-- @foreach ($category->categoryType as $ctype) --}}
                                                 <div class="col-lg-6 col-12">
@@ -140,13 +140,9 @@
                                                         <img src="{{ asset('images/home/2.jpg') }}" alt="helloo" class="w-100 img-thumbnail figure-img img-fluid">
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-6 col-12">
-                                                    <div class="col-megamenu">
-                                                        <h6 class="heading_li mb-2">We prodive your best desig to you.</h6>
-                                                        <img src="{{ asset('images/home/2.jpg') }}" alt="helloo" class="w-100 img-thumbnail figure-img img-fluid">
-                                                    </div>
-                                                </div>
+                                                
                                             </div>
+                                            
                                         </div>
                                     </li>
                                 @endforeach

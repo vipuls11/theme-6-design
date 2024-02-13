@@ -1,82 +1,105 @@
-     /* .....Banner slider..................  */
-     .slide {
-        position: relative;
-
+#slider-container .btn-slider {
+    position: absolute;
+    top: calc(60% - 30px);
+    height: 30px;
+    width: 30px;
+    border-left: 8px solid var(--darkgreen);
+    border-top: 8px solid var(--darkgreen);
+    z-index: 200;
+  }
+  
+  #slider-container .btn-slider:hover {
+    transform: scale(1.2);
+  }
+  
+  #slider-container .btn-slider.inactive {
+    border-color: var(--darkgreen);
+  }
+  
+  #slider-container .btn-slider:first-of-type {
+    transform: rotate(-45deg);
+    left: 10px
+  }
+  
+  #slider-container .btn-slider:last-of-type {
+    transform: rotate(135deg);
+    right: 10px;
+  }
+  
+  #slider-container #slider {
+    display: flex;
+    width: 1000%;
+    height: 100%; 
+    transition: all .5s;
+    z-index: 500;
+  }
+  
+  #slider-container #slider .slide-card {
+    height: 90%;
+    margin: auto 10px;
+    /* background-color: #a847a4;
+    box-shadow: 2px 2px 4px 2px white, -2px -2px 4px 2px white; */
+    display: grid;
+    place-items: center;
+  }
+  
+  /* #slider-container #slider .slide span {
+    color: white;
+    font-size: 150px;
+  } */
+  
+  @media only screen and (min-width: 1100px) {
+  
+    #slider-container #slider .slide-card {
+      width: calc(2.5% - 20px);
+    }
+    #slider-container {
+    /* height: 400px; */
+        width: 100%;
+    max-width: 1500px;
+    /* background: #54d5e4; */
+    /* box-shadow: 5px 5px 8px gray inset; */
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  }
+  
+  /* @media only screen and (max-width: 1100px) {
+  
+    #slider-container #slider .slide-card {
+      width: calc(3.3333333% - 20px);
+    }
+  
+  } */
+  
+  @media only screen and (max-width: 900px) {
+  
+    #slider-container #slider .slide-card {
+      width: calc(5% - 20px);
     }
 
-    .carousel-control-prev {
-        position: absolute;
-        top: 50%;
-        left: 5%;
-        border-radius: 50%;
-        height: 50px;
-        width: 50px;
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
+    #slider-container {
+    /* height: 400px; */
+  width: 100%;
+    max-width: 1200px;
+    /* background: #54d5e4; */
+    /* box-shadow: 5px 5px 8px gray inset; */
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  }
+  
+  @media only screen and (max-width: 550px) {
+  
+    #slider-container #slider .slide-card {
+      width: calc(10% - 20px);
     }
-
-    .carousel-control-next {
-        position: absolute;
-        top: 50%;
-        right: 1%;
-        height: 50px;
-        width: 50px;
-        border-radius: 50%;
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-    }
-
-    /* .....banner slider..................  */
-
-     /* .....image card slider..................  */
-    #myCarousel {
-        margin-top: 20px;
-    }
-
-    @media (max-width: 768px) {
-        .carousel-inner .carousel-item>div {
-            display: none;
-        }
-
-        .carousel-inner .carousel-item>div:first-child {
-            display: block;
-        }
-    }
-
-    .carousel-inner .carousel-item.active,
-    .carousel-inner .carousel-item-start,
-    .carousel-inner .carousel-item-next,
-    .carousel-inner .carousel-item-prev {
-        display: flex;
-        gap: 10px;
-    }
-
-    @media (min-width: 768px) {
-
-        .carousel-inner .carousel-item-right.active,
-        .carousel-inner .carousel-item-next,
-        .carousel-item-next:not(.carousel-item-start) {
-            transform: translateX(25%) !important;
-        }
-
-        .carousel-inner .carousel-item-left.active,
-        .carousel-item-prev:not(.carousel-item-end),
-        .active.carousel-item-start,
-        .carousel-item-prev:not(.carousel-item-end) {
-            transform: translateX(-25%) !important;
-        }
-
-        .carousel-item-next.carousel-item-start,
-        .active.carousel-item-end {
-            transform: translateX(0) !important;
-        }
-
-        .carousel-inner .carousel-item-prev,
-        .carousel-item-prev:not(.carousel-item-end) {
-            transform: translateX(-25%) !important;
-        }
-    }
-
+  
+  }
     /* .....image card slider..................  */
 
         /* ............................................Subcribe Button.................... */
@@ -105,49 +128,4 @@
         /* ............................................Subcribe Button....................  */
 
 
-        /* ................demo subcride  button click color change.....................*/ */
-        .button_subcribe {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            line-height: 1;
-            text-decoration: none;
-            color: #ff0000;
-            font-size: 18px;
-            border-radius: 5px;
-            width: 200px;
-            height: 40px;
-            border: 1px solid #ff0000;
-            position: relative;
-            transition: 0.3s;
-            overflow: hidden;
-            background-color: #ffffff;
-          }
-          
-          .button_subcribe::before {
-            content: "new";
-            display: block;
-            font-size: 11px;
-            width: 60px;
-            text-align: center;
-            background-color: #f00;
-            color: #fff;
-            padding: 7px 0 3px;
-            position: absolute;
-            top: 0;
-            left: 0;
-            transform: translate(-34%, -4px) rotate(-35deg);
-            transition: .3s;
-          }
-          
-          .button_subcribe:hover {
-            color: #fff;
-            background-color: #f00;
-          }
-          
-          .button_subcribe:hover::before {
-            background-color: #fff;
-            color: #f00;
-          }
-
-          /* ..................................demo subcride  button click color change.................... */
+  

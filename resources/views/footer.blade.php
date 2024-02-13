@@ -46,7 +46,15 @@
                     <li>
                         <a href="mailto:sale@gmail.com">Mail : sale@gmail.com</a>
                     </li>
+                    <li class="mt-2">
+                        <div class="Subcribe_input">
+                            <input type="text" placeholder="Enter your Email" name="" class="w-100 p-1"  style="font-size: 14px;"
+                                id="">
+                            <button class="button_subcribe fw-semibold ">SUBCRIBE</button>
+                        </div>
+                    </li>
                 </ul>
+               
             </div>
         </div>
     </div>
