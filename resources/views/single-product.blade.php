@@ -7,28 +7,29 @@
     <style>
     
     </style>
+        <div class="container-fluid fs-6 my-3">
+            <a href="" class="text-dark">Home <span>| </span></a>
+            <a href="" class="text-dark">Diamond Earrings <span>| </span></a>
+            <a href="" class="" style="color: var(--darkgreen);"
+              >Ravishing Rose Gold Drop Earrings
+            </a>
+        </div>
     <div class="my-5">
 
         <div class="container">
             <div class="scroller row">
-                <div class="col-lg-5">
+                <div class="col-lg-4">
                     <div>
-                        <p class="fs-6">
-                <a href="" class="text-dark">Home <span>| </span></a>
-                <a href="" class="text-dark">Diamond Earrings <span>| </span></a>
-                <a href="" class="" style="color: var(--darkgreen);"
-                  >Ravishing Rose Gold Drop Earrings
-                </a>
-              </p>
+                    
   
    
                         <div>
                             <section id="default" class="padding-top-0" >
-                                <div class="row ">
+                                <div class="row">
                                     {{-- <div class="large-12 column">
                                         <h3></h3>
                                     </div> --}}
-                                    <div class="large-5 column mt-5">
+                                    <div class="large-5 column">
                                         <div class="xzoom-container w-100">
                                             <img class="xzoom w-100" 
                                             id="xzoom-default"
@@ -96,21 +97,100 @@
                         </div>
                     </div>
                 </div>
-                <div class="scroller col-lg-7">
+                <div class="scroller col-lg-8">
                     <div class="">
-                        <div>
+                        <div class="px-4">
                             <div class="">
-                                <span>552820DPJAAE52</span>
-                                <h3 class="m-0" style="font-family: AGaramondPro-Regular;">
+                                <h4 class="m-0 mb-1 text-black" style="">
                                     Ravishing Rose Gold Drop Earrings
-                                </h3>
-
+                                </h4>
+                               <p class="text-black" style="m-0 font-size:14px;">Product code: <span style=" font-size:14px;">552820DPJAAE52</span></p>
+                                <p class="text-black ">Free Shipping In India | Hallmarked jewellery available for sale</p>
+                                <p class="text-black">Availability: <span>Make To Order</span></p>
                             </div>
-                            <div class="">
-                              
-                               
-
-                             
+                            <div class="mb-2">
+                                <h4 class="fw-semibold m-0" style="color: var(--darkgreen)">&#8377; 13000</h4>
+                                <p class="m-0 text-black" style="font-size: 12px;">(Inclusive of all takes)</p>
+                            </div>
+                            <div>
+                                <div class="row g-2">
+                                    <div class="col-2 ">
+                                        <label for="qty">Size :</label><br>
+                                        <select name="" id="" class="py-1 w-100">
+                                            <option value="" class="border " >12(51.9mm)</option>
+                                            <option value="" selected>10(50mm)</option>
+                                            <option value="">12(51.9mm)<option>
+                                            <option value="">13(53.1mm)</option>
+                                            <option value="">14(54.4mm)</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-2 ">
+                                        <label for="qty">Gold Color :</label><br>
+                                        <select name="" id="" class="py-1 w-100">
+                                            <option value="">Rose</option>
+                                            <option value="" selected>Yellow</option>
+                                            <option value="">Gold<option>
+                                            {{-- <option value="">13(53.1mm)</option>
+                                            <option value="">14(54.4mm)</option> --}}
+                                        </select>
+                                    </div>
+                                    <div class="col-2 ">
+                                        <label for="qty">Gold Color :</label><br>
+                                        <select name="" id="" class="py-1 w-100">
+                                            <option value="">Rose</option>
+                                            <option value="" selected>VVSHS-GH</option>
+                                            <option value="">Gold<option>
+                                            {{-- <option value="">13(53.1mm)</option>
+                                            <option value="">14(54.4mm)</option> --}}
+                                        </select>  
+                                    </div>
+                                    <p class="text-black" style="font-size: 14px;">Weight will increase as per the Size. <span class="" style="color:var(--darkgreen); font-size: 14px;">Check Sizing Comparison</span></p>
+                                    <div class="pb-4 border-bottom">
+                                        <h6 class="fw-semibold m-0 mb-2" style="font-size: 14px;">Price Breakup</h6>
+                                        <div class="d-flex text-center">
+                                            <div class="border-end p-2" >
+                                                <p class="text-black m-0" style="font-size: 14px;">Gold</p>
+                                                <p class="m-0 text-black" style="font-size: 14px;">&#8377; 4865</p>
+                                            </div>
+                                            <div class="border-end p-2"> 
+                                                <p class="text-black m-0" style="font-size: 14px;">Diamond</p>
+                                                <p class="text-black m-0" style="font-size: 14px;">&#8377; 2948</p>
+                                            </div>
+                                            <div class="border-end p-2">
+                                                <p class="text-black m-0" style="font-size: 14px;">Making</p>
+                                                <p class="text-black m-0" style="font-size: 14px;">&#8377; 2900</p>
+                                            </div>
+                                            <div class="border-end p-2">
+                                                <p class="text-black m-0" style="font-size: 14px;">Tax</p>
+                                                <p class="text-black m-0" style="font-size: 14px;">&#8377; 321</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <div class="d-flex " >
+                                            <input type="text" class="m-0 px-2" placeholder="Pincode" style="width: 150px; border-radius:0%; border:1px solid black;">
+                                            <button class="m-0 px-2 text-white" style="background: var(--darkgreen); border:1px solid black;">Check</button>
+                                        </div>
+                                        <div class="mx-2">
+                                            <p class="m-0 text-black fw-semibold" style="font-size: 12px;">( Dispatch by: <span class="fw-semibold" style="font-size: 12px;">saturday, Mar 30, 24</span> )</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <button class="w-25 py-1 fw-semibold text-white" style="background:var(--darkgreen); border:1px solid black;">Buy Now</button>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <div>
+                                            <p class="m-0 text-black">Any Questions ? Please contact us at</p>
+                                           <p class="m-0"><span class="text-black "><a href="" class="text-black fw-semibold" style="font-size: 12px;"><i class="fa-solid fa-headphones" style="font-size: 12px;"></i> +91 00000 00000</a></span> <span ><a href="" class="text-black fw-semibold" style="font-size: 12px;"><i class="fa-solid fa-phone" style="font-size:12px;"></i> +91 00000 00000</a></span></p> 
+                                        </div>
+                                        <div>
+                                            <p class="m-0 text-black fw-semibold text-center" style="font-size:12px;">100% Certified by <br> International Standards</p>
+                                        </div>
+                                        <div>
+                                           <img src="fgfh" alt="Hello" class="" style="width:80px height:80px;"> 
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -121,9 +201,73 @@
         <!-- ................banner................... -->
       
 
-
-
-
+{{-- .....................................................product Details...................................... --}}
+        <div class="my-5 container">
+            <div class="row text-center py-1" >
+                <div class="col py-1" style="background:rgb(222, 221, 221);"><h5>Product Details</h5></div>
+                <div class="col"></div>
+            </div>
+            <div class="d-flex w-100 p-2 m-0" style="background:rgb(222, 221, 221);">
+                <div class="w-100 px-4" style="font-size:10px;">
+                    <h6>Basic Information</h6>
+                    <div class="d-flex justify-content-between gap-3 my-3">
+                        <p class="m-0 text-black">Product Type</p>
+                        <p class="m-0 text-black">Ring</p>
+                    </div>
+                    <div class="d-flex justify-content-between gap-3 my-3">
+                        <p class="m-0 text-black">Product Type</p>
+                        <p class="m-0 text-black">Ring</p>
+                    </div>
+                    <div class="d-flex justify-content-between gap-3 my-3">
+                        <p class="m-0 text-black">Product Type</p>
+                        <p class="m-0 text-black">Ring</p>
+                    </div>
+                    <div class="d-flex justify-content-between gap-3 my-3">
+                        <p class="m-0 text-black">Product Type</p>
+                        <p class="m-0text-black">Ring</p>
+                    </div>
+                </div>
+                <div class="w-100 px-4">
+                    <h6>Basic Information</h6>
+                    <div class="d-flex justify-content-between gap-3 my-3">
+                        <p class="m-0 text-black">Product Type</p>
+                        <p class="m-0 text-black">Ring</p>
+                    </div>
+                    <div class="d-flex justify-content-between gap-3 my-3">
+                        <p class="m-0 text-black">Product Type</p>
+                        <p class="m-0text-black">Ring</p>
+                    </div>
+                    <div class="d-flex justify-content-between gap-3 my-3">
+                        <p class="m-0 text-black">Product Type</p>
+                        <p class="m-0 text-black">Ring</p>
+                    </div>
+                    <div class="d-flex justify-content-between gap-3 my-3">
+                        <p class="m-0 text-black">Product Type</p>
+                        <p class="m-0 text-black">Ring</p>
+                    </div>
+                </div>
+                <div class="w-100 px-4">
+                    <h6>Basic Information</h6>
+                    <div class="d-flex justify-content-between gap-3 my-3">
+                        <p class="m-0 text-black">Product Type</p>
+                        <p class="m-0 text-black">Ring</p>
+                    </div>
+                    <div class="d-flex justify-content-between gap-3 my-3">
+                        <p class="m-0 text-black">Product Type</p>
+                        <p class="m-0 text-black">Ring</p>
+                    </div>
+                    <div class="d-flex justify-content-between gap-3 my-3">
+                        <p class="m-0 text-black">Product Type</p>
+                        <p class="m-0 text-black">Ring</p>
+                    </div>
+                    <div class="d-flex justify-content-between gap-3 my-3">
+                        <p class="m-0 text-black">Product Type</p>
+                        <p class="m-0 text-black">Ring</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+{{-- .....................................................product Details...................................... --}}
         <!-- ................slider image...................... -->
         <div class="container px-4">
             <h1 class="text-xl font-semibold" style="font-family: AGaramondPro-Regular;">Customers Who Viewed This Also
